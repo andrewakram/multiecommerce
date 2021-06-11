@@ -1,0 +1,80 @@
+@media (max-width: 567px) { 
+    .banner{
+        background-position: center !important;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    nav {
+        background: #544aa4;
+        
+    }
+    .navbar-brand {
+        margin-left: 0;
+        margin-right: 0
+    }
+    .icofont-navigation-menu {
+        color: #fff;
+    }
+    .nav-item , .lang {
+        text-align: left;
+    }
+    .banner .block h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+    .features {
+        margin-top: -280px
+    }
+    .cta-section {
+        background: #6051d7 url(../../img/bg_count.svg) no-repeat;
+        background-size: 100%;
+        height: auto;
+    }
+    .service .icon {
+        float: none;
+        flex-direction: column;
+    }
+    .service .content {
+        clear: both;
+        text-align: center;
+    }
+    .service .service-item {
+        border: 1px solid #f1f1f1;
+    }
+    .testimonial-block i {
+        font-size: 70px;
+    }
+    .overlay:before {
+        background: #544aa4;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 979px){ 
+    .overlay:before {
+        background: #544aa4;
+    }
+    .banner .block h1 {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .banner {
+        background-size: 100%;
+    }
+    .navigation {
+        text-align: left;
+        background: #574da7;
+    }
+    .icofont-navigation-menu {
+        color: #fff;
+    }
+    .banner .block {
+        padding: 20px 0px 203px;
+    }
+    .section.about {
+        padding: 50px 0;
+    }
+    .cta-section {
+        height: auto;
+        background-color: #584bbe;
+    }
+  }
